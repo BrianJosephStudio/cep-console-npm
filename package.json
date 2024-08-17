@@ -1,0 +1,28 @@
+{
+  "name": "cep-console",
+  "version": "1.0.0",
+  "description": "an sdk for cep-console",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BrianJosephStudio/cep-console-npm.git"
+  },
+  "author": "Brian ure",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BrianJosephStudio/cep-console-npm/issues"
+  },
+  "homepage": "https://github.com/BrianJosephStudio/cep-console-npm#readme",
+  "dependencies": {
+    "axios": "^1.7.4"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
