@@ -6,7 +6,7 @@ export class Logger {
 
   constructor(identifier: string) {
     this.identifier = identifier;
-    this.baseUrl = 'https://cep-console.brianure.com';
+    this.baseUrl = 'https://cep-console.brianure.com/api/v1';
   }
 
   async log(message: string): Promise<void> {

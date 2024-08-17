@@ -17,7 +17,7 @@ const axios_1 = __importDefault(require("axios"));
 class Logger {
     constructor(identifier) {
         this.identifier = identifier;
-        this.baseUrl = 'https://cep-console.brianure.com';
+        this.baseUrl = 'https://cep-console.brianure.com/api/v1';
     }
     log(message) {
         return __awaiter(this, void 0, void 0, function* () {
